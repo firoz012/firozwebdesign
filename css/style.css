@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* google-font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+  body, h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Roboto', sans-serif;
+  }
+ 
+  .navbar {
+    background-color: rgba(229, 229, 229, 1)!important;
+    padding: 10px 0;
+  }
+  .mx-auto {
+    margin-right: 0 !important;
+  }
+
+  .nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-transform: capitalize;
+  }
+  .main-menu a {
+    margin-left: 10px;
+    color: #4E4E4E !important;
+  }
+  .main-menu a:hover{
+    color: #1ABB9C!important;
+  }
+  .navbar-brand img{
+    width: 70%;
+  }
+ 
+
+  /*---======banner section start*---======*/
+.banner-section{
+    background-image: url(../images/Layer\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 240px 0px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 40px;
+    font-weight:bold;
+    color: #F3F3F3;
+}
+.banner-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #A8A8A8;
+    padding: 10px 0px;
+}
+.btn-custom {
+    background-color: rgba(63, 141, 191, 1);
+    padding: 15px 40px;
+    color: white;
+    letter-spacing: 1px;
+   display: inline-block;
+   border-radius: 5px;
+   transition: 0.5s;
+}
+.btn-custom:hover{
+    color:black;
+    background-color: rgba(63, 141, 191, 1);
+}
+  /*---======service section start---======*/
+  .service-section{
+    padding: 50px 0;
+     background-color: #F7F7F7;
+  }
+  .service {
+    background: rgba(157, 154, 191, 1);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.service-content{
+    text-align: center;
+}
+  .service-content img{
+      
+  }
+  .service-content h2{
+      font-size: 18px;
+      color: #4E4E4E;
+      font-weight: 400;
+  }
+  .service-content p {
+    font-size: 14px;
+    color: #616161;
+    font-weight: 400;
+   
+}
+.color-green1{
+    
+    background-color: rgba(210, 81, 75, 1);
+}
+.color-green2{
+    background-color: rgba(102, 163, 198, 1);
+}
+.color-green3{
+    background-color: rgba(232, 192, 79, 1);
+}
+.service.color-green1 {
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.service.color-green2 {
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.service.color-green3 {
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+/*---======service section end---======*/
+/*---======latest work section start---======*/      
+  .latest-work-section{
+    background-color: #F7F7F7;
+    padding: 50px 0;
+  }
+  .latest-work-content{}
+  .latest-work-content h2{
+    font-size: 18px;
+    color: #4E4E4E;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .latest-work-content span{
+    color: #A8A8A8;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .latest-work-content p{
+    color: #5C5C5C;
+    font-size: 14px;
+    color: #5C5C5C;
+  }
+  img.img-fluid {
+    border-radius: 5px;
+}
+.work-content{
+  font-size: 18px;
+  font-weight: 700;
+  color: #4E4E4E;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/*---======latest work section end---======*/   
+/*---======test-monial-secriomn start---======*/ 
+  .test-monial-secriomn {
+    background-color: #8080801f;
+    padding: 50px 0;
+}
+  .test-monial-content{
+    text-align: center;
+  }
+  .test-monial-content img{}
+  .test-monial-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5c5c5c;
+    padding: 0px 298px;
+    margin-top: 20px;
+}
+/* =====test-monial-secriomn end =====*/
+/* =====footer section start =====*/
+.footer-section{
+  background-color:black;
+  padding: 70px 0
+ 
+}
+.footer-content{}
+.footer-content span{
+  font-size: 18px;
+  color: #6C6C6C;
+  font-weight: 700;
+}
+.footer-content p {
+  font-size: 14px;
+  color: #CACACA;
+  font-weight: 400;
+  margin: 0px;
+  padding-top: 15px;
+}
+.list {
+  list-style: none;
+  color: #CACACA;
+  padding-left: 0px;
+}
+.list  li{
+  margin-bottom: 10px;
+}
+i.fas.fa-envelope {
+  margin-right: 10px;
+}
+i.fas.fa-mobile {
+  margin-right: 10px;
+}
+i.fas.fa-globe {
+  margin-right: 10px;
+}
+.footer-con h2{
+  color: #CACACA;
+  font-size: 14px;
+  font-weight: 400;
+}
+/*====== footer section end===== */
